@@ -1,0 +1,29 @@
+{
+  "name": "TheWorld",
+  "authors": [
+    "Clinton <eagle32123@hotmail.com>"
+  ],
+  "description": "Users map trip around world.",
+  "main": "Program.cs",
+  "keywords": [
+    "World",
+    "travel",
+    "trip"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "jquery-validation": "~1.15.0",
+    "jquery-validation-unobtrusive":"~3.2.6"
+  }
+}
