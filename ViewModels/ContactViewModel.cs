@@ -9,13 +9,13 @@ namespace TheWorld.ViewModels
 {
     public class ContactViewModel
     {
-        [RequiredAttribute]
+        [Required]
         public string Name {get; set;}
-        [RequiredAttribute]
-        [EmailAddressAttribute]
+        [Required]
+        [EmailAddress]
         public  string Email {get; set;}
-        [RequiredAttribute]
-        [StringLengthAttribute(4096, MinimumLength = 10)]
+        [Required]
+        [StringLength(4096, MinimumLength = 10)]
         public string Message {get;set;}
     }
 }
